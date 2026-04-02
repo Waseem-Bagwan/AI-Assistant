@@ -7,7 +7,7 @@ import aiService from './routes/review.route.js'
 const app = express()
 
 app.use(cors({
-    origin:"https://ai-assistant-beta-flax.vercel.app/",
+    origin:"https://ai-assistant-beta-flax.vercel.app",
     credentials: true
 }))
 
