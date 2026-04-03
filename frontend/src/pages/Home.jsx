@@ -411,11 +411,11 @@ export default function Home() {
         </div>
       </section>
 
+      <ToolCard />
       <ProblemSection />
       <ConsequencesSection />
       <SolutionSection />
       <TrustBar />
-      <ToolCard />
       <HowItWorksSection />
 
       <style>{`
